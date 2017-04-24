@@ -2,8 +2,8 @@ function LogIn()
 {
 	var login = document.getElementById("user").value;
 	var passwd = document.getElementById("passwd").value;
-    var user_login = "1111";//"serverraspberrycreator";
-    var user_passwd = "1111"; //"administratorpipasswd";
+    var user_login = "1111";
+    var user_passwd = "1111"; 
 
 	if (login == user_login && passwd == user_passwd)
 	{
