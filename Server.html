@@ -1,0 +1,45 @@
+<html>
+     <head>
+         <title>
+         	  Server beta
+         </title>
+
+         <link rel="stylesheet" type="text/css" href="style.css"> </link>
+         <script type="text/javascript" src="jquery.js"> </script>
+         
+         <script> 
+             $( document ).ready(function() {
+                 $("#registered_user").hide();
+                 $("#login_checking").show();
+             });	
+         </script>
+
+     </head>
+
+     <body>
+        <div id="main_div">
+        	<p id="div_title"> System of collecting information <br> based on Raspberry Pi microcomputer
+        	
+        	<div id="login_checking">
+        		 <center>
+        		     <form>
+        		         <br>Username: <input type="text" name="username" id="user" size="20" maxlength="30"></input>  
+        		         <br><br>Password: <input type="password" name="password" id="passwd" size="20" maxlength="30"></input> 
+        		         <br><br><button onclick="LogIn()">Sign In</button>  <button>Sign In as a Guest</button>     		     	
+        		     </form>
+        		 </center>
+        	</div>
+
+        	<div id="registered_user">
+        		 <center>
+        		     <form>
+        		         <br> Welcome to our site! Please, choose action:
+        		         <br><br><button>Sign In</button>  <button>Sign In as a Guest</button>     		     	
+        		     </form>
+        		 </center>
+        	</div>
+        </div>
+
+        <script src="javascript.js"></script>
+     </body>
+</html>

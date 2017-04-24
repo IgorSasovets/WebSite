@@ -1,0 +1,43 @@
+body {
+	background-image: url("Images/pi1.png");
+}
+
+#main_div {
+	width: 27%;
+	height: 60%;
+	background-color: #7a1414;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #911a28;
+}
+
+#div_title {
+	font-size: 18px;
+	font-style: italic;
+	font-family: "Verdana";
+	text-align: center;
+	color: #bfbfbf;
+}
+
+#login_checking {
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Verdana";
+    color: #bfbfbf;
+    /*background-color: white; */
+}
+
+#registered_user {
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    font-style: italic;
+    font-family: "Verdana";
+    color: #bfbfbf;
+    background-color: white; 
+}
